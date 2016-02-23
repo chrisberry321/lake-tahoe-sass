@@ -8,6 +8,12 @@
   @extend %t-border;
 	padding-top: 25px;
   padding-bottom: 95px;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
 }
 
 .secondary-content {
@@ -17,6 +23,12 @@
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+  
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
 }
 
 .wildlife {
