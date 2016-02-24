@@ -2,8 +2,7 @@
   @extend %centered;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid $color-prim;
-  
+  border-bottom: 10px solid $color-prim;  
   @media #{$brk-narrow} {
     padding: 20px 0;
   }
